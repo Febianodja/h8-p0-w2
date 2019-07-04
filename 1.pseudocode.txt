@@ -1,0 +1,24 @@
+PSEUDOCODE
+
+1. Newton Second Law
+    SET 'm' as 600
+    SET 'a' as 2
+    EF =  'm' x 'a'
+    DISPLAY EF
+
+2. Tahun Kabisat
+    SET "tahun" as any number
+        IF 'tahun' % 4 === 0 AND 'tahun' % 100 !== 0 THEN kabisat is true
+            ELSE IF 'tahun' % 4 === 0 AND 'tahun' % 100 === 0 AND 'tahun' % 400 === 0 THEN kabisat is true
+                ELSE kabisat is false
+
+3. Laundry Day 
+    SET 'baju' to 1
+    WHILE 'baju' is LESS THAN EQUAL to 20, ADD 1 'baju'
+
+4. Periksa Kuku
+    SET 'murid' to 1
+    WHILE 'murid' is LESS THAN EQUAL to 40, ADD 1 'murid'
+        IF 'murid' % 2 === 0 THEN 'murid' is true
+            ELSE 'murid' is false
+     
