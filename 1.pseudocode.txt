@@ -3,7 +3,7 @@ PSEUDOCODE
 1. Newton Second Law
     SET 'm' as 600
     SET 'a' as 2
-    EF =  'm' x 'a'
+    EF =  'm' MULTIPLY by 'a'
     DISPLAY EF
 
 2. Tahun Kabisat
@@ -17,8 +17,8 @@ PSEUDOCODE
     WHILE 'baju' is LESS THAN EQUAL to 20, ADD 1 'baju'
 
 4. Periksa Kuku
-    SET 'murid' to 1
-    WHILE 'murid' is LESS THAN EQUAL to 40, ADD 1 'murid'
-        IF 'murid' % 2 === 0 THEN 'murid' is true
-            ELSE 'murid' is false
+    SET 'murid' as string that contain 'x' and 'o'
+    FOR 'i' EQUAL to 0, i is LESS THAN 'murid' length
+        IF index i of 'murid' is 'x' THEN DISPLAY 'puji muridnya'
+            ELSE DISPLAY 'hukum muridnya'
      
